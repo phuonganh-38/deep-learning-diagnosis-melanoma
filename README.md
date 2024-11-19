@@ -11,7 +11,7 @@ Melanoma is one of the most aggressive types of skin cancer. Early and accurate 
 
 ## **Key objectives**
 
-1.	Develop an effective model: Using deep learning, primarily convolutional neural networks (CNNs), trained on the selected dataset, to obtain high accuracy in diagnosing melanoma in skin lesion images. This model seeks to meet clinical requirements and deliver trustworthy findings by attaining an accuracy rate of at least 80%.
+1.	Develop an effective model: Using deep learning, primarily Convolutional Neural Networks (CNNs), trained on the selected dataset, to obtain high accuracy in diagnosing melanoma in skin lesion images. This model seeks to meet clinical requirements and deliver trustworthy findings by attaining an accuracy rate of at least 80%.
 2.	Improve diagnostic efficiency: Automating the image analysis procedure will reduce on the amount of time doctors need to identify melanoma. Dermatologists may be able to concentrate more on treating patients as a result, improving health outcomes.
 3.	Establish an accessible interface: Make the model available through an accessible Streamlit app so that dermatologists and other medical professionals can readily use it. By offering real-time melanoma detection, this application improves accessibility in distant and clinical settings.
 4.	Enhance dermatological Research with AI: We also intend for further study on dermatological uses of AI by investigating how deep learning may help identify melanoma early and could be modified for other skin conditions.
@@ -31,7 +31,7 @@ Melanoma is one of the most aggressive types of skin cancer. Early and accurate 
 
 ## **Dataset**
 
-The [HAM10000 dataset](#https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000) comprises a total of 10,015 dermatoscopic images for detecting pigmented skin lesions, including a representative collection of 7 diagnostic categories. We divided into 2 classes: melanoma (11.2%) and non-melanoma (88.8%).
+The [HAM10000 dataset](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000) comprises a total of 10,015 dermatoscopic images for detecting pigmented skin lesions, including a representative collection of 7 diagnostic categories. We divided into 2 classes: melanoma (11.2%) and non-melanoma (88.8%).
 
 
 
