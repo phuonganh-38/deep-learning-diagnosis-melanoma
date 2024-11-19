@@ -8,6 +8,7 @@ This project is a deep learning system designed to assist in the differential di
 Melanoma is one of the most aggressive types of skin cancer. Early and accurate diagnosis is essential for effective treatment and improved patient outcomes. This project leverages deep learning to classify images as melanoma or non-melanoma, aiming to support dermatologists in making more accurate diagnostic decisions.
 
 
+
 ## **Key objectives**
 
 1.	Develop an Effective Model: Using deep learning, primarily convolutional neural networks (CNNs), trained on the selected dataset, to obtain high accuracy in diagnosing melanoma in skin lesion images. This model seeks to meet clinical requirements and deliver trustworthy findings by attaining an accuracy rate of at least eighty percent.
@@ -20,11 +21,10 @@ Melanoma is one of the most aggressive types of skin cancer. Early and accurate 
 ## **Usage**
 
 1. Upload the datasets to Google Drive (if you use Google Colab) or Jupyter Notebook (if you use Jupyter Notebook)
-  ○ HAM10000_metadata.csv: contains 10,015 rows of metadata for the HAM10000 dataset
 
-  ○ HAM10000_images_part_1: contains 5000 skin lesion images
-  
-  ○ HAM10000_images_part_1: contains 5015 skin lesion images
+  - HAM10000_metadata.csv: contains 10,015 rows of metadata for the HAM10000 dataset
+  - HAM10000_images_part_1: contains 5000 skin lesion images
+  - HAM10000_images_part_1: contains 5015 skin lesion images
 3. Run the notebook `model.jpynb`
 
 
@@ -32,6 +32,7 @@ Melanoma is one of the most aggressive types of skin cancer. Early and accurate 
 ## **Dataset**
 
 The [HAM10000 dataset](#https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000) comprises a total of 10,015 dermatoscopic images for detecting pigmented skin lesions, including a representative collection of 7 diagnostic categories. We divided into 2 classes: melanoma (11.2%) and non-melanoma (88.8%).
+
 
 
 ## **Features**
@@ -53,6 +54,7 @@ The [HAM10000 dataset](#https://www.kaggle.com/datasets/kmader/skin-cancer-mnist
 | Horizontal flip    | True              | Randomly flips images horizontally to enhance the model’s robustness        |
 | Brightness range   | [0.8, 1.2]        | Adjusts brightness within the range of 0.8 to 1.2                           |
 | Fill mode          | nearest           | Fills any empty areas created by transformations with the nearest pixel value to avoid artifacts |
+
 
 
 ## **Models Used** 
