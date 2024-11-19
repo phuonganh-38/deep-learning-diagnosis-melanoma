@@ -13,9 +13,11 @@ Melanoma is a highly aggressive form of skin cancer, where early diagnosis signi
 
 ## **Key objectives**
 
-- Development of a **convolutional neural network (CNN)** to classify skin lesion images.  
-- Comprehensive data preprocessing, augmentation, and exploratory data analysis (EDA).  
-- Performance evaluation using metrics such as accuracy, precision, recall, and F1-score.
+1.	Develop an Effective Model: Using deep learning, primarily convolutional neural networks (CNNs), trained on the selected dataset, to obtain high accuracy in diagnosing melanoma in skin lesion images. This model seeks to meet clinical requirements and deliver trustworthy findings by attaining an accuracy rate of at least eighty percent.
+2.	Improve Diagnostic Efficiency: Automating the image analysis procedure will reduce on the amount of time doctors need to identify melanoma. Dermatologists may be able to concentrate more on treating patients as a result, improving health outcomes.
+3.	Establish an Accessible Interface: Make the model available through an accessible Streamlit app so that dermatologists and other medical professionals can readily use it. By offering real-time melanoma detection, this application improves accessibility in distant and clinical settings.
+4.	Enhance dermatological Research with AI: We also intend for further study on dermatological uses of AI by investigating how deep learning may help identify melanoma early and could be modified for other skin conditions.
+
 
 ## **Usage**
 
@@ -32,10 +34,12 @@ The [HAM10000 dataset](#https://www.kaggle.com/datasets/kmader/skin-cancer-mnist
 
 ## **Features**
 
-- [Data Preprocessing](#data-preprocessing-and-EDA.jpynb)
-- [Exploratory Data Analysis (EDA)](#data-preprocessing-and-EDA.jpynb)
-- [Hair Removal](#hair-removal.jpynb)
+- [Data Preprocessing](data-preprocessing-and-EDA.jpynb)
+- [Exploratory Data Analysis (EDA)](data-preprocessing-and-EDA.jpynb)
+- [Hair Removal](hair-removal.jpynb)
+- [Streamlit App](https://dlsd-melanoma-detection.streamlit.app/)
 - Data Augmentation
+  
   | Techniques         | Range             | Description                                                                 |
 |--------------------|-------------------|-----------------------------------------------------------------------------|
 | Resize             | 224x224           | Resizes all images to 224x224 pixels to standardize input dimensions for the model |
