@@ -59,7 +59,7 @@ The [HAM10000 dataset](#https://www.kaggle.com/datasets/kmader/skin-cancer-mnist
 
 ## **Models Used** 
 
-Convolutional Neural Network (CNNs) with these architecture:
+Convolutional Neural Networks (CNNs) with these architectures:
 1. Inception-V3
 2. ResNet-50
 3. EfficienNet-B4
@@ -70,11 +70,13 @@ Convolutional Neural Network (CNNs) with these architecture:
 - Instead of predicting just 2 classes: `Melanoma`/ `No Melanoma`, we found that it would be better to predict 3 classes: `Low Risk`, `Medium Risk` and  `High Risk`. If a customer gets the  `Low Risk` response, the probability of having a melanoma is close to 0%. If a customer gets the `High Risk` result, the probability of having a melanoma is almost 50%. If they get the “Medium Risk” result, the probability of having a melanoma is 20%.
 
 
-|Bins       |Total|Melanoma|Rate %|
-|Low Risk   |166  |0       |0%    |
-|Medium Risk|204  |42      |21%   |
-|High Risk  |29   |14      |48%   |
-|Grand Total|399  |56      |14%   |
+| Bins        | Total | Melanoma | Rate % |
+|-------------|-------|----------|--------|
+| Low Risk    | 166   | 0        | 0%     |
+| Medium Risk | 204   | 42       | 21%    |
+| High Risk   | 29    | 14       | 48%    |
+| Grand Total | 399   | 56       | 14%    |
+
 
 
 
