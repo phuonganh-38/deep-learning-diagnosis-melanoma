@@ -7,9 +7,6 @@ This project is a deep learning system designed to assist in the differential di
 
 Melanoma is one of the most aggressive types of skin cancer. Early and accurate diagnosis is essential for effective treatment and improved patient outcomes. This project leverages deep learning to classify images as melanoma or non-melanoma, aiming to support dermatologists in making more accurate diagnostic decisions.
 
-## **Introduction**
-
-Melanoma is a highly aggressive form of skin cancer, where early diagnosis significantly improves patient outcomes. This project develops a deep learning-based system to differentiate between melanoma and non-melanoma skin lesions, using the **HAM10000** dataset—a widely recognized resource in dermatology research.
 
 ## **Key objectives**
 
@@ -19,13 +16,18 @@ Melanoma is a highly aggressive form of skin cancer, where early diagnosis signi
 4.	Enhance dermatological Research with AI: We also intend for further study on dermatological uses of AI by investigating how deep learning may help identify melanoma early and could be modified for other skin conditions.
 
 
+
 ## **Usage**
 
 1. Upload the datasets to Google Drive (if you use Google Colab) or Jupyter Notebook (if you use Jupyter Notebook)
   ○ HAM10000_metadata.csv: contains 10,015 rows of metadata for the HAM10000 dataset
+
   ○ HAM10000_images_part_1: contains 5000 skin lesion images
+  
   ○ HAM10000_images_part_1: contains 5015 skin lesion images
-2. Run the notebook `model.jpynb`
+3. Run the notebook `model.jpynb`
+
+
 
 ## **Dataset**
 
@@ -39,8 +41,8 @@ The [HAM10000 dataset](#https://www.kaggle.com/datasets/kmader/skin-cancer-mnist
 - [Hair Removal](hair-removal.jpynb)
 - [Streamlit App](https://dlsd-melanoma-detection.streamlit.app/)
 - Data Augmentation
-  
-  | Techniques         | Range             | Description                                                                 |
+
+| Techniques         | Range             | Description                                                                 |
 |--------------------|-------------------|-----------------------------------------------------------------------------|
 | Resize             | 224x224           | Resizes all images to 224x224 pixels to standardize input dimensions for the model |
 | Rotation           | 20 degrees        | Randomly rotates images by up to 20 degrees to add variability in orientation. |
