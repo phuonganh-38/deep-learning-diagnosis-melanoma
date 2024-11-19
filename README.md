@@ -37,9 +37,9 @@ The [HAM10000 dataset](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-
 
 ## **Features**
 
-- [Data Preprocessing](data-preprocessing-and-EDA.jpynb)
-- [Exploratory Data Analysis (EDA)](data-preprocessing-and-EDA.jpynb)
-- [Hair Removal](hair-removal.jpynb)
+- [Data Preprocessing](Data%20Preprocessing%20and%20EDA.ipynb)
+- [Exploratory Data Analysis (EDA)](Data%20Preprocessing%20and%20EDA.ipynb)
+- [Hair Removal](Hair%20Removal.jpynb)
 - [Streamlit App](https://dlsd-melanoma-detection.streamlit.app/)
 - Data Augmentation
 
