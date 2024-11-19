@@ -22,9 +22,9 @@ Melanoma is one of the most aggressive types of skin cancer. Early and accurate 
 
 1. Upload the datasets to Google Drive (if you use Google Colab) or Jupyter Notebook (if you use Jupyter Notebook)
 
-  - HAM10000_metadata.csv: contains 10,015 rows of metadata for the HAM10000 dataset
-  - HAM10000_images_part_1: contains 5000 skin lesion images
-  - HAM10000_images_part_1: contains 5015 skin lesion images
+  - `HAM10000_metadata.csv`: contains 10,015 rows of metadata for the HAM10000 dataset
+  - `HAM10000_images_part_1`: contains 5000 skin lesion images
+  - `HAM10000_images_part_1`: contains 5015 skin lesion images
 2. Run the notebook `model.jpynb`
 
 
