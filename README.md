@@ -11,9 +11,9 @@ Melanoma is one of the most aggressive types of skin cancer. Early and accurate 
 
 ## **Key objectives**
 
-1.	Develop an Effective Model: Using deep learning, primarily convolutional neural networks (CNNs), trained on the selected dataset, to obtain high accuracy in diagnosing melanoma in skin lesion images. This model seeks to meet clinical requirements and deliver trustworthy findings by attaining an accuracy rate of at least eighty percent.
-2.	Improve Diagnostic Efficiency: Automating the image analysis procedure will reduce on the amount of time doctors need to identify melanoma. Dermatologists may be able to concentrate more on treating patients as a result, improving health outcomes.
-3.	Establish an Accessible Interface: Make the model available through an accessible Streamlit app so that dermatologists and other medical professionals can readily use it. By offering real-time melanoma detection, this application improves accessibility in distant and clinical settings.
+1.	Develop an effective model: Using deep learning, primarily convolutional neural networks (CNNs), trained on the selected dataset, to obtain high accuracy in diagnosing melanoma in skin lesion images. This model seeks to meet clinical requirements and deliver trustworthy findings by attaining an accuracy rate of at least 80%.
+2.	Improve diagnostic efficiency: Automating the image analysis procedure will reduce on the amount of time doctors need to identify melanoma. Dermatologists may be able to concentrate more on treating patients as a result, improving health outcomes.
+3.	Establish an accessible interface: Make the model available through an accessible Streamlit app so that dermatologists and other medical professionals can readily use it. By offering real-time melanoma detection, this application improves accessibility in distant and clinical settings.
 4.	Enhance dermatological Research with AI: We also intend for further study on dermatological uses of AI by investigating how deep learning may help identify melanoma early and could be modified for other skin conditions.
 
 
@@ -25,7 +25,7 @@ Melanoma is one of the most aggressive types of skin cancer. Early and accurate 
   - HAM10000_metadata.csv: contains 10,015 rows of metadata for the HAM10000 dataset
   - HAM10000_images_part_1: contains 5000 skin lesion images
   - HAM10000_images_part_1: contains 5015 skin lesion images
-3. Run the notebook `model.jpynb`
+2. Run the notebook `model.jpynb`
 
 
 
@@ -63,5 +63,18 @@ Convolutional Neural Network (CNNs) with these architecture:
 1. Inception-V3
 2. ResNet-50
 3. EfficienNet-B4
+
+
+## **Results**
+- CNN with Inception-V3 turned out the best model with 79% accuracy
+- Instead of predicting just 2 classes: `Melanoma`/ `No Melanoma`, we found that it would be better to predict 3 classes: `Low Risk`, `Medium Risk` and  `High Risk`. If a customer gets the  `Low Risk` response, the probability of having a melanoma is close to 0%. If a customer gets the `High Risk` result, the probability of having a melanoma is almost 50%. If they get the “Medium Risk” result, the probability of having a melanoma is 20%.
+
+
+|Bins       |Total|Melanoma|Rate %|
+|Low Risk   |166  |0       |0%    |
+|Medium Risk|204  |42      |21%   |
+|High Risk  |29   |14      |48%   |
+|Grand Total|399  |56      |14%   |
+
 
 
