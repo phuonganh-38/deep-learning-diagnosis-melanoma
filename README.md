@@ -78,5 +78,11 @@ Convolutional Neural Networks (CNNs) with these architectures:
 | Grand Total | 399   | 56       | 14%    |
 
 
+## Authors
+- **Phuong Anh Pham** - *Provided README*
+See the list of [contributors](CONTRIBUTORS.md) who participated in this project.
+
+## **Acknowledgements**
+Special thanks to everyone who supported this project. 
 
 
