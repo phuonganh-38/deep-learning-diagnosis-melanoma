@@ -1,6 +1,6 @@
 **Our members**
 
-1. Tran Minh Toan Hoang (Leader)
+1. Tran Minh Toan Hoang
 2. Phuong Anh Pham
 3. Ya-Ping Liao
 4. Vicente Novoa
