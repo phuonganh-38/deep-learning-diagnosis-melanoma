@@ -5,35 +5,31 @@ This project is a deep learning system designed to assist in the differential di
 
 ## **Introduction**
 
-Melanoma is one of the most aggressive types of skin cancer. Early and accurate diagnosis is essential for effective treatment and improved patient outcomes. This project leverages deep learning to classify images as melanoma or non-melanoma, aiming to support dermatologists in making more accurate diagnostic decisions.
-
-
+Melanoma is one of the most aggressive types of skin cancer. Early and accurate diagnosis is essential for effective treatment and improved patient outcomes. This project leverages deep learning to classify images as melanoma or non-melanoma, aiming to support dermatologists in making more accurate diagnostic decisions.<br>
+<br>
 
 ## **Key objectives**
 
 1.	Develop an effective model: Using deep learning, primarily Convolutional Neural Networks (CNNs), trained on the selected dataset, to obtain high accuracy in diagnosing melanoma in skin lesion images. This model seeks to meet clinical requirements and deliver trustworthy findings by attaining an accuracy rate of at least 80%.
 2.	Improve diagnostic efficiency: Automating the image analysis procedure will reduce on the amount of time doctors need to identify melanoma. Dermatologists may be able to concentrate more on treating patients as a result, improving health outcomes.
 3.	Establish an accessible interface: Make the model available through an accessible Streamlit app so that dermatologists and other medical professionals can readily use it. By offering real-time melanoma detection, this application improves accessibility in distant and clinical settings.
-4.	Enhance dermatological Research with AI: We also intend for further study on dermatological uses of AI by investigating how deep learning may help identify melanoma early and could be modified for other skin conditions.
-
+4.	Enhance dermatological Research with AI: We also intend for further study on dermatological uses of AI by investigating how deep learning may help identify melanoma early and could be modified for other skin conditions.<br>
+<br>
 
 
 ## **Usage**
-
 1. Upload the datasets to Google Drive (if you use Google Colab) or Jupyter Notebook (if you use Jupyter Notebook)
 
   - `HAM10000_metadata.csv`: contains 10,015 rows of metadata for the HAM10000 dataset
   - `HAM10000_images_part_1`: contains 5000 skin lesion images
   - `HAM10000_images_part_1`: contains 5015 skin lesion images
-2. Run the notebook `model.jpynb`
-
-
+2. Run the notebook `model.jpynb`<br>
+<br>
 
 ## **Dataset**
 
-The [HAM10000 dataset](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000) comprises a total of 10,015 dermatoscopic images for detecting pigmented skin lesions, including a representative collection of 7 diagnostic categories. We divided into 2 classes: melanoma (11.2%) and non-melanoma (88.8%).
-
-
+The [HAM10000 dataset](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000) comprises a total of 10,015 dermatoscopic images for detecting pigmented skin lesions, including a representative collection of 7 diagnostic categories. We divided into 2 classes: melanoma (11.2%) and non-melanoma (88.8%).<br>
+<br>
 
 ## **Features**
 
@@ -43,6 +39,8 @@ The [HAM10000 dataset](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-
 - [Streamlit App](https://dlsd-melanoma-detection.streamlit.app/)
 - Data Augmentation
 
+<div align="center">
+  
 | Techniques         | Range             | Description                                                                 |
 |--------------------|-------------------|-----------------------------------------------------------------------------|
 | Resize             | 224x224           | Resizes all images to 224x224 pixels to standardize input dimensions for the model |
@@ -55,7 +53,9 @@ The [HAM10000 dataset](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-
 | Brightness range   | [0.8, 1.2]        | Adjusts brightness within the range of 0.8 to 1.2                           |
 | Fill mode          | nearest           | Fills any empty areas created by transformations with the nearest pixel value to avoid artifacts |
 
+</div>
 
+<br>
 
 ## **Models Used** 
 
@@ -63,13 +63,14 @@ Convolutional Neural Networks (CNNs) with these architectures:
 1. Inception-V3
 2. ResNet-50
 3. EfficienNet-B4
-
+<br>
 
 ## **Results**
 - CNN with Inception-V3 turned out the best model with 79% accuracy
 - Instead of predicting just 2 classes: `Melanoma`/ `No Melanoma`, we found that it would be better to predict 3 classes: `Low Risk`, `Medium Risk` and  `High Risk`. If a customer gets the  `Low Risk` response, the probability of having a melanoma is close to 0%. If a customer gets the `High Risk` result, the probability of having a melanoma is almost 50%. If they get the “Medium Risk” result, the probability of having a melanoma is 20%.
 
-
+<div align="center">
+  
 | Bins        | Total | Melanoma | Rate % |
 |-------------|-------|----------|--------|
 | Low Risk    | 166   | 0        | 0%     |
@@ -77,11 +78,13 @@ Convolutional Neural Networks (CNNs) with these architectures:
 | High Risk   | 29    | 14       | 48%    |
 | Grand Total | 399   | 56       | 14%    |
 
+</div>
 
 ## Authors
 - **Phuong Anh Pham** - *Provided README*
 
-See the list of [contributors](CONTRIBUTORS.md) who participated in this project.
+See the list of [contributors](CONTRIBUTORS.md) who participated in this project.<br>
+<br>
 
 ## **Acknowledgements**
 Special thanks to everyone who supported this project. 
